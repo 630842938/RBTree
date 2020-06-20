@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
@@ -17,7 +18,7 @@ public class demo1 {
         //Stream.of() 创建流
         Stream<String> stream3 = Stream.of("鲁班七号", "伽罗", "云中君");
 
-
+        System.out.println("1111111111111");
 
     }
 }
